@@ -12,13 +12,15 @@
     url = "github:numtide/flake-utils";
   };
   inputs.obsidianhtml = {
-    url = "github:Programmerino/obsidian-html/personal";
+    #url = "path:///home/davis/Downloads/obsidian-html";
+    url = "github:obsidian-html/obsidian-html";
     inputs.nixpkgs.follows = "nixpkgs";
   };
   inputs.nixpkgs = {
     url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
   inputs.notes = {
+    #url = "/home/davis/Documents/Obsidian";
     url = "github:Programmerino/notes";
     flake = false;
   };

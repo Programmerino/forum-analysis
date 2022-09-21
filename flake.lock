@@ -30,22 +30,6 @@
         "type": "github"
       }
     },
-    "md-mermaid-repo": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1645912413,
-        "narHash": "sha256-ZVIG5mD155zH9KEUmPNED91AgyXjdN7zUd+ZPI20zf4=",
-        "owner": "obsidian-html",
-        "repo": "md_mermaid",
-        "rev": "22c4d600da25397205471706abc9011e142d5f53",
-        "type": "github"
-      },
-      "original": {
-        "owner": "obsidian-html",
-        "repo": "md_mermaid",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1663491030,
@@ -65,8 +49,8 @@
     "notes": {
       "flake": false,
       "locked": {
-        "lastModified": 1663559154,
-        "narHash": "sha256-+7Cup11NB5whmF/BHlPN8cflFLJpDN8qKWCVhMNXcQU=",
+        "lastModified": 1663738826,
+        "narHash": "sha256-Zx1qeGgzsc32wTLxNT8PQHY/HkTWL3+8hh6ncJLFAJI=",
         "path": "/home/davis/Documents/Obsidian",
         "type": "path"
       },
@@ -78,22 +62,20 @@
     "obsidianhtml": {
       "inputs": {
         "flake-utils": "flake-utils_2",
-        "md-mermaid-repo": "md-mermaid-repo",
         "nixpkgs": [
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1663551817,
-        "narHash": "sha256-2GG06t8yoMj1X6Sp5fmCaNgrYC13TifYBdjaHi8f4Lk=",
-        "owner": "Programmerino",
+        "lastModified": 1663708948,
+        "narHash": "sha256-uU7KZd3U/BXDMLZnf2QIhXtXujrPFnJ+V+Mu+bR/t5Q=",
+        "owner": "obsidian-html",
         "repo": "obsidian-html",
-        "rev": "1dcd302f6f043cbf2e5f087b2c5d641ed1580962",
+        "rev": "bfe1ae5d74c188e129f15842f625ee046b3e661c",
         "type": "github"
       },
       "original": {
-        "owner": "Programmerino",
-        "ref": "personal",
+        "owner": "obsidian-html",
         "repo": "obsidian-html",
         "type": "github"
       }
